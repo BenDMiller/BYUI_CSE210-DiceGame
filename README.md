@@ -1,13 +1,28 @@
-# BYUI_CSE210-DiceGame
+# Dice
+Are you willing to risk everything? Play Dice and you might be surprised. The rules are simple. Roll 
+the dice. Count the ones and fives. Each one is worth 100 and 50 points respectively. As long as you 
+roll at least a one or a five you can try again. If not the game is over.
 
-Get ready to play the dice game! Choose whether or not you want to roll the dice and test fate.
-Rolling ones and fives allows you to keep playing, racking up the points, but if you don't roll
-an one or a five, then game over for you!
+## Getting Started
+---
+Make sure you have Python 3.8.0 or newer installed and running on your machine. Open a terminal and 
+browse to the project's root folder. Start the program by running the following command.
+```
+python3 dice 
+```
+You can also run the program from an IDE like Visual Studio Code. Start your IDE and open the 
+project folder. Select the main module inside the dice folder and click the "run" button.
 
-## How to open the file and play
-
-In order to play, open the game file, titled DiceGame, inside of Visual Studio Code, and the press
-run. Then look to the terminal, and follow along to what the game says. Best of luck!!!
+## Project Structure
+---
+The project files and folders are organized as follows:
+```
+root                    (project root folder)
++-- dice                (source code for game)
+  +-- game              (specific classes)
+  +-- __main__.py       (program entry point)
++-- README.md           (general info)
+```
 
 ## Required Technologies
 ---
@@ -15,4 +30,4 @@ run. Then look to the terminal, and follow along to what the game says. Best of 
 
 ## Authors
 ---
-* Ben Miller (bendmiller@byui.edu)
+* Matt Manley (manleym@byui.edu)
