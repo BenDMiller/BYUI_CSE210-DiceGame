@@ -38,6 +38,9 @@ class Director:
             self.get_inputs()
             self.do_updates()
             self.do_outputs()
+        #End game message
+        print(f"Good job, your score was {self.total_score}. Run the program again to play again.")
+
 
     def get_inputs(self):
         """Ask the user if they want to roll.
@@ -56,6 +59,8 @@ class Director:
         """
         if not self.is_playing:
             return 
+
+        self.score = 0
 
         for i in range(len(self.dice)):
             die = self.dice[i]
@@ -79,4 +84,4 @@ class Director:
 
         print(f"You rolled: {values}")
         print(f"Your score is: {self.total_score}\n")
-        self.is_playing == (self.score > 0)
+        self.is_playing = (self.score > 0)
